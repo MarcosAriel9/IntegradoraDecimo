@@ -208,7 +208,7 @@ class _PedidosState extends State<Pedidos> {
                 ),
                 onPressed: () {
                   // Redirige a la ruta 'allproducts' al presionar el botón
-                  Navigator.pushNamed(context, '/allproducts');
+                  // Navigator.pushNamed(context, '/allproducts');
                 },
                 child: const Text('Registrar Pedido'),
               ),

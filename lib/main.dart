@@ -18,7 +18,7 @@ class MainApp extends StatelessWidget {
       routes: {
         '/': (context) => const Splash(),
         '/menu': (context) => const Menu(),
-        '/pedidos': (context) => const Pedidos(),
+        '/products': (context) => const Pedidos(),
       },
     );
   }
