@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:la_golosinadora/config/navigation/account_navigation.dart';
 import 'package:la_golosinadora/config/navigation/home_navigation.dart';
 import 'package:la_golosinadora/kernel/widget/custom_bottom_navigation_tab.dart';
+import 'package:la_golosinadora/config/navigation/pedidos_navigation.dart';
 
 
 class Menu extends StatefulWidget{
@@ -25,7 +26,7 @@ class _MenuState extends State<Menu> {
     return Scaffold(
       body: IndexedStack(
         index: _selectIndex,
-        children: const [HomeNavigation(), AccountNavigation()],
+        children: const [HomeNavigation(), AccountNavigation(), PedidosNavigation()],
       ),
       bottomNavigationBar: CustomBottomNavigationTab(selectedIndex: _selectIndex, onItemTapped: _onItemTapped),
     );

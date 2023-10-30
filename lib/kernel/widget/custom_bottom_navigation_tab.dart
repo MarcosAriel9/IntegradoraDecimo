@@ -9,7 +9,8 @@ class CustomBottomNavigationTab extends StatelessWidget{
   Widget build(BuildContext context) {
     return BottomNavigationBar(items: const <BottomNavigationBarItem> [
         BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Inicio'),
-        BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Mi Perfil')
+        BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Perfil'),
+        BottomNavigationBarItem(icon: Icon(Icons.delivery_dining_outlined), label: 'Pedidos')
       ],
       currentIndex: selectedIndex,
       selectedItemColor: ColorsApp.secondaryColor,

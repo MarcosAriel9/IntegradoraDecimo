@@ -39,13 +39,6 @@ class _SplashState extends State<Splash> {
               ),
             ),
             const SizedBox(height: 20),
-            // const Text(
-            //   "La Golosinadora",
-            //   style: TextStyle(
-            //     color: ColorsApp.whiteColor,
-            //     fontSize: 24,
-            //   ),
-            // ),
           ],
         ),
       ),

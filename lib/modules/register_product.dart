@@ -56,10 +56,12 @@ class _RegisterProductState extends State<RegisterProduct> {
                         borderRadius: BorderRadius.circular(20.0),
                       ),
                       child: IconButton(
-                        icon: Icon(Icons.camera_alt, color: ColorsApp.whiteColor,),
+                        icon: Icon(
+                          Icons.camera_alt,
+                          color: ColorsApp.whiteColor,
+                        ),
                         iconSize: 15,
-                        onPressed: () {
-                        },
+                        onPressed: () {},
                       ),
                     ),
                   ),
@@ -129,7 +131,7 @@ class _RegisterProductState extends State<RegisterProduct> {
                   backgroundColor: ColorsApp.primaryColor,
                 ),
                 onPressed: () {
-                },
+                  Navigator.pushNamed(context, '/products');},
                 child: const Text('Registrar'),
               ),
             ],
